@@ -29,16 +29,16 @@ nav a {
 
 nav a:hover {
     color: #f5f6f7;
-    background-color: #aad545;
-    border-radius: 10px;
+    background-color:lightslategrey;
+    border-radius: 5px;
     border: 2px solid rgb(211, 189, 189);
-    
 }
-
-
 
 #lista li {
     margin: 20px;
+    background-color: #aad545;
+    border-radius: 5px;
+    
 }
 
 a {
@@ -57,6 +57,10 @@ a:hover {
 img {
     max-width: 280px;
     height: auto;
+}
+.eco{
+    display: flex;
+    flex-direction: column;
 }
 
 #galeria {
